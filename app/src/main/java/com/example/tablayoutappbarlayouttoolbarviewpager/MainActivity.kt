@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package com.example.tablayoutappbarlayouttoolbarviewpager
 
 import androidx.appcompat.app.AppCompatActivity
@@ -10,6 +12,7 @@ import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
 
+@Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
